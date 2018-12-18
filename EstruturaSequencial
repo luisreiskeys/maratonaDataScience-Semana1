@@ -1,0 +1,39 @@
+#1 Faça um Programa que mostre a mensagem "Alo mundo" na tela.
+  print('Alo mundo')
+
+#2 Faça um Programa que peça um número e então mostre a mensagem O número informado foi [número].
+  num = input('Informe um número: ')
+  print("O número informado foi ",num)
+
+#3 Faça um Programa que peça dois números e imprima a soma.
+  num = input('Informe dois números inteiros: ').split()
+  print(int(num[0])+int(num[1]))
+
+#4 Faça um Programa que peça as 4 notas bimestrais e mostre a média.
+  notas = input('Informe as quatro notas bimestrais: ').split()
+  print((float(notas[0])+float(notas[1])+float(notas[2])+float(notas[3]))/4)
+   
+#5 Faça um Programa que converta metros para centímetros.
+  metros = input('Informe a medida em metros: ')
+  print(float(metros)*100)
+   
+#6 Faça um Programa que peça o raio de um círculo, calcule e mostre sua área
+  r = input('Informe o raio do círculo: ')
+  print('A área do círculo é ', 3.1416*(float(r)**2))
+
+#7 Faça um Programa que calcule a área de um quadrado, em seguida mostre o dobro desta área para o usuário.
+  l = input('Informe a medida do lado do quadrado: ')
+  print('O dobro da área do quadrado é ', 2*(float(l)**2))
+  
+#8 Faça um Programa que pergunte quanto você ganha por hora e o número de horas trabalhadas no mês. Calcule e mostre o total do seu salário no referido mês.
+  vHora = input('informe o valor da sua hora: ')
+  hTrabalhadas = input('informe quantas horas você trabalha pro mês: ')
+  print('O seu salário mensal é: ',float(vHora)*float(hTrabalhadas))
+ 
+#9 Faça um Programa que peça a temperatura em graus Farenheit, transforme e mostre a temperatura em graus Celsius.
+  t = input('informe a temperatura em graus Farenheit: ')
+  print('A temperatura em Celsius é: ', (5 * (float(t)-32) / 9))
+
+#10 Faça um Programa que peça a temperatura em graus Celsius, transforme e mostre em graus Farenheit.
+  t = input('informe a temperatura em graus Celsius: ')
+  print('A temperatura em Farenheit é: ', (float(t)*9/5)+32)
